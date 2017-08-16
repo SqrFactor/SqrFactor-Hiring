@@ -1,0 +1,1631 @@
+@charset "UTF-8";
+/*
+#e5e5e5 - Grey
+#25252a - Black
+#ff4242 - Red
+*/
+
+body {
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  color: #25252a;
+  font-weight: 400;
+}
+
+.turn-red {
+  color: #ff4242;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline-color: #fff;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.header-registration {
+  position: fixed;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #fff;
+  z-index: 10;
+
+}
+
+.cmpny-logo {
+  margin-top: 20px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.social-link {
+  display: inline;
+  float: right;
+  margin-top: 31px;
+  margin-right: 73px;
+}
+
+.social-link li {
+  display: inline;
+  margin-left: 22px;
+}
+
+.social-link li a:hover {
+  -webkit-animation:spin 0.5s linear 1;
+  -moz-animation:spin 0.5s linear 1;
+  animation:spin 0.5s linear 1;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.social-link li i {
+  color: #bcbbbb;
+  font-size: 22px;
+}
+
+.social-link li i:hover {
+  color: #ff4242;
+}
+
+.social-link li:nth-child(1) i:hover {
+  color: #3b5998;
+}
+
+.social-link li:nth-child(2) i:hover {
+  color: #4099ff;
+}
+
+.social-link li:nth-child(3) i:hover {
+  color: #dd4b39;
+}
+
+.social-link li:nth-child(4) i:hover {
+  color: #9b6954;
+}
+
+.social-link li:nth-child(5) i:hover {
+  color: #4875b4;
+}
+
+.nav-bar {
+  display: inline;
+  float: right;
+  margin-top: 35px;
+  margin-right: 73px; 
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-bar li:hover {
+  color: #ff4242;
+}
+
+.nav-button {
+  display: none;
+}
+
+.link-register {
+  color: #000;
+}
+
+.link-register:hover {
+  text-decoration: none;
+  color: #ff4242;
+}
+
+.link-register1 {
+  color: #ff4242;
+}
+
+.link-register1:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+
+#hometop, #home, #competition, #contactus, #brief {
+  cursor: pointer;
+}
+
+/*Initial Page*/
+
+.intro-lines {
+  text-align: left;
+  margin-left: 68px;
+  margin-top: 210px;
+}
+
+.title-intro {
+  width: 272px;
+  height: 75px;
+  font-size: 30px;
+  /*font-weight: bold;*/
+  color: #ff4242;
+}
+
+.sub-title-intro {
+  width: 400px;
+  height: 81px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.initial-page {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bckground_castle.png); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 50px;
+  background-position-y: 350px;
+}
+
+.adv-competition {
+  margin-top: 175px;
+}
+
+.competition-alert {
+  font-size: 24px;
+  color: #ff4242;
+  font-weight: 700;
+}
+
+.few-days {
+  font-size: 18px;
+  margin-top: -10px;
+  margin-left: 15px;
+  color: #ff4242;
+}
+
+.registration-main {
+  width: 150px;
+  height: 81px;
+  background-color: #ff4242;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.registration-main-two {
+  width: 156px;
+  height: 44px;
+  background-color: #ff4242;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.registration-main a {
+  color: #fff;
+}
+
+.registration-main a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.work-with-us {
+  width: 125px;
+  color: #ff4242;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 16px;
+}
+
+.text-work-with {
+  font-size: 24px;
+  color: #ff4242;
+  margin-left:32px;
+}
+
+.image-sqroot {
+  padding: 0px;
+  margin-top: 75px;
+  margin-left: 650px;
+}
+
+.bubble-sm {
+  margin-top: -77px;
+  margin-left: 210px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.bubble-lg {
+  margin-left: 150px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 20px 225px 15px;
+}
+
+.sqroot {
+  margin-top: 5px;
+  margin-right: 100px;
+}
+
+.stay-tuned {
+  text-align: center;
+  color: #ff4242;
+  font-size: 18px;
+}
+
+.position-image {
+  float: right;
+}
+
+.stay-tuned-lines {
+    width: 185px;
+    height: 78px;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+.stay-tuned-lines h3 {
+  font-weight: 700;
+  color: #ff4242;
+}
+
+.form-page {
+  padding: 0;
+  border-bottom: 2px solid #ff4242;
+  margin: 50px auto;
+}
+
+.competition-name {
+  color: #ff4242;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 68px;
+}
+
+.competition-description {
+  width: 530px;
+  font-size: 18px;
+  margin-left: 68px;
+}
+
+.list-description {
+  font-size: 16px;
+  width: 530px;
+  margin-left: 50px;
+}
+
+.center-associate {
+  text-align: center;
+  margin-top: 25px;
+  color: #ff4242;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.association-logo-full-div{
+	margin-left:-10px;
+}
+
+.associate-logo {
+  text-align: center;
+}
+
+.iia-logo, .gmc-logo{
+  margin-left: 65px;
+  margin-top: 35px;
+}
+.mpcci{
+	height:120px;
+	margin-left:-5px;
+}
+
+.gmc-logo {
+  margin-left: -11px;
+}
+
+.mpcci-text{
+	  width: 170px;
+  color: #25252a;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 4px;
+}
+
+.iia-full, .gmc-full {
+  width: 135px;
+  color: #25252a;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 73px;
+}
+
+.gmc-full {
+  width: 160px;
+  margin-left: 11px;
+}
+
+
+/*Competition Details*/
+
+.comp-details {
+  text-align: center;
+  margin-top: 20px;
+  /*border-bottom: 2px solid #e5e5e5;*/
+  padding-bottom: 25px;
+}
+
+.new-competition-details {
+  font-size: 30px;
+  color: #ff4242;
+}
+
+.new-competition-description {
+  font-size: 20px;
+  width: 865px;
+  margin: 30px auto 0;
+}
+
+.basic-rules-competitions {
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.dates-for-competition {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.registration-open, .submission-deadline {
+  font-size: 22px;
+}
+
+.submission-deadline {
+  margin-top: 33px;
+}
+
+.dates-competition {
+  font-size: 36px;
+  margin-top: -20px;
+}
+
+.price-money {
+  margin-top: 40px;
+  margin-left: -100px;
+}
+
+.price-money-list {
+  display: inline-block;
+  margin-left: -250px;
+}
+
+.price-money-list li {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 35px;
+  border: 3px solid #ff4242;
+  padding: 5px 25px;
+  text-align: right;
+}
+
+.price-money-list li:nth-child(4) {
+  margin-top: 40px;
+  margin-left: 65px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.price-money-list li:nth-child(5) {
+  border: none;
+  margin-left: 10px;
+}
+
+/*last-page*/
+
+.contact {
+  text-align: center;
+  color: #ff4242;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.office-address {
+  width: 385px;
+  font-size: 18px;
+  margin-left: 141px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.call-us {
+  margin-top: 32px;
+}
+
+.footer-page {
+  margin: 30px 0 0 0;
+  padding: 0px;
+}
+
+
+
+.contact-title {
+  margin-bottom: 50px;
+}
+
+.mail_to {
+  color: #ff4242;
+}
+
+.mail_to:hover {
+  color: #ff4242;
+  text-decoration: none;
+}
+
+.footer-img {
+  padding: 0;
+  margin-top: 50px;
+}
+
+.footer-img-brief {
+  margin-top: 0px;
+  padding: 0;
+}
+
+.img-footer {
+  width: 100%;
+  position: relative;
+}
+
+.footer-allrights {
+  color: #fff;
+  position: absolute;
+  margin: -28px 0 0 40px;
+  font-size: 16px;
+}
+
+.note-indian {
+  font-size: 14px;
+}
+
+.tt-menu {
+  width: 300px; 
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
+  border-top: none;
+  font-size: 16px;
+}
+
+.tt-suggestion {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.tt-suggestion:hover {
+  background-color: #e5e5e5;
+}
+
+
+/* registration page */
+
+.register-here {
+  padding-top: 175px;
+}
+
+.title-form-field {
+  color: #ff3838;
+  font-size: 32px;
+}
+
+.start-date-title {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+
+.inter-discipline {
+  list-style-type: none;
+  margin-left: -36px;
+  font-size: 18px;
+}
+
+.college-field {
+  width: 419px;
+  height: 37px;
+  border: 1px solid #252525;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.registration-field {
+  width: 325px;
+  height: 37px;
+  border: 1px solid #252525;
+  padding-left: 12px;
+  margin-top: 30px;
+  margin-left: -15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  border-radius: 4px;
+}
+
+.height-div {
+  margin-top: 25px;
+  margin-left: 225px;
+  width: 70%;
+}
+
+.sub-title-field {
+  font-size: 18px;
+}
+
+.team-size {
+  margin-top: -10px;
+}
+
+.team-member {
+  margin-left: -15px;
+  margin-top: 25px;
+  margin-bottom: -25px;
+  color: #ff4242;
+}
+
+.charges {
+  margin-left: -15px;
+  margin-top: 25px;
+  margin-bottom: -25px;
+  color: #ff4242;
+}
+
+.tnc {
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+.tnc-agree {
+  color: #ff4242;
+  font-weight: 600;
+}
+
+.tnc-agree:hover {
+  color: #ff4242;
+}
+
+.tnc-box {
+  margin-right: 7px;
+}
+
+.register-button {
+  width: 276px;
+  height: 37px;
+  background-color: #ff4242;
+  border: none;
+  color: #fff;
+  margin-left: -15px;
+  margin-top: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.apply-button {
+  width: 103px;
+  height: 37px;
+  background-color: #ff4242;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.ref-title {
+  margin-top: 0px;
+}
+
+.ref-field {
+  margin-top: 15px;
+}
+
+.reg-fee {
+  margin-top: 43px;
+}
+.box {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -15px;
+  margin-top: 50px;
+  margin-bottom: -3px;
+}
+
+.box-student1, .box-architect1, .box-student2, .box-architect2, .box-student3, .box-architect3 {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -15px;
+  margin-top: 25px;
+}
+
+.box-student1, .box-student2, .box-student3 {
+  margin-top: 40px;
+}
+
+.architect-only1,.architect-only2, .architect-only3 {
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: 0;
+}
+
+.year-of-passing {
+  margin-left: -15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.add-tick {
+  background-image: url(../img/checkbox-tick.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tnc-about {
+  display: inline;
+}
+
+.student-select, .architect-select {
+  margin-left: 10px;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.competition-poster {
+  width: 100%;
+}
+
+
+/* Brief Page */
+.banner-image {
+  margin-left: 200px;
+  margin-top: 25px;
+}
+
+.brief-image {
+  padding-top: 150px;
+}
+
+.briefs-text {
+  font-size: 30px;
+}
+
+.background-breif {
+  margin-top: 40px;
+}
+
+.brief-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.brief-points {
+  margin-left: -25px;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.brief-para {
+  font-size: 16px;
+}
+
+.set-margin-top {
+  margin-top: 25px;
+}
+
+.brief-download {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.brief-link {
+  font-size: 26px;
+  background-color: #ff4242;
+  color: #fff;
+  padding: 5px 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.brief-linked {
+  font-size: 26px;
+  background-color: #ff4242;
+  color: #fff;
+  padding: 5px 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175); 
+}
+
+.brief-link:hover {
+  color: #ff4242;
+}
+
+.brief-linked:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brief-link:focus {
+  color: #ff4242; 
+}
+
+.terms-condition {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px 0 15px;
+}
+
+.wrapper {
+  padding-top: 150px;
+}
+
+.popup-div {
+  margin-top: 20px;
+  color: #ff4242;
+  font-size: 20px;
+  margin-left: -15px;
+  margin-bottom: -50px;
+}
+
+.jury-honor {
+  border-bottom: 2px solid #ff4242;
+  padding-bottom: 30px;
+}
+
+.jury-panel-title {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.jury-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.jury-name {
+  font-size: 20px;
+}
+
+.jury-off {
+  font-size: 16px;  
+}
+
+.jury-panel-1 {
+  margin-left: 100px;
+}
+
+.jury-panel-2 {
+  margin-left: -100px;
+}
+
+.jury-panel-3 {
+  margin-left: -100px;
+}
+
+.select2-selection--single {
+  padding-bottom: 30px;
+  padding-top: 5px;
+  border: 1px solid #000 !important;
+}
+
+.select2-selection--single:focus {
+  outline: none;
+}
+
+.select2-dropdown--below {
+  margin-top: -25px;
+}
+
+.select2-selection__arrow {
+  margin-top: 3px
+}
+
+.select2-container--default {
+  margin-left: -15px;
+  margin-top: 30px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.select2-dropdown--below, .select2-dropdown--above {
+  margin-top: -30px;
+  margin-left: 15px;
+}
+
+.select2-results__option {
+  border-bottom: 1px 
+   #000;
+}
+
+.select2-results__options li:nth-child(1) {
+  color: #e2e2e2
+}
+
+.select2-search__field {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.download-first:hover {
+  color: #ff4242;
+}
+
+/*After Reg*/
+
+.after_reg {
+  padding-top: 185px;
+  text-align: center;
+  margin-bottom: -75px;
+  
+}
+
+.payumoney {
+  width: 200px;
+  margin-top: 4%;
+}
+
+.payment_success {
+  padding-top: 185px;
+  text-align: center;
+  /*margin-bottom: -75px;*/
+  
+}
+
+.payment_failure {
+  padding-top: 185px;
+  text-align: center;
+}
+
+.partner-list {
+  padding-top: 185px;
+}
+
+.partner-image {
+  width: 100%
+}
+
+.partner-div {
+  margin-top: 40px;
+}
+
+
+
+
+@media all and (max-width: 1000px) and (min-width: 520px) {
+  
+  .header {
+    height: 200px;
+  }
+
+.header-registration {
+  position: absolute;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #fff;
+  z-index: 10;
+  height: 200px;
+}
+
+  .form-page {
+    margin-top: 75px;
+  }
+
+  .cmpny-logo {
+    width: 125px;
+    height: 140px;
+    margin-top: 35px;
+  }
+
+  .social-link {
+    margin-top: 50px;
+  }
+
+  .social-link li i {
+    font-size: 42px;
+  }
+
+  .nav-bar {
+    margin-left: 0px;
+    font-size: 30px;
+    margin-top: 25px;
+    font-size: 50px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-right: 73px;
+    padding-left: 1px;
+    padding-right: 30px;
+    display: none;
+    margin-right: -10px;
+    text-align: center;
+  }
+
+  .display-nav {
+    display: block;
+  }
+
+  .nav-button {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 75px;
+    background-color: #ff4242;
+    border-color: #e5e5e5;
+  }
+
+  .nav-bar li {
+    display: block;
+    margin-left: 20px;
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .intro-lines {
+    width: 62%;
+    text-align: center;
+    margin: 75px auto 250px;
+  }
+
+  .title-intro {
+    width: 100%;
+    font-size: 54px;
+    margin-top: 125px;
+  }
+
+  .sub-title-intro {
+    width: 100%;
+    margin: 175px auto 0;
+    font-size: 34px;
+  }
+
+  .bubble-sm {
+    margin-top: -25px;
+  }
+
+  .stay-tuned {
+    display: none;
+  }
+
+  .initial-page {
+    background-position-y: 1250px; 
+    padding-top: 250px;
+    width: 100%;
+  }
+
+  .image-sqroot {
+    margin-top: 235px;
+  }
+
+  .competition-alert {
+    padding-left: 100px;
+    font-size: 40px;
+  }
+
+  .few-days {
+  font-size: 30px;
+  color: #ff4242;
+  padding-left: 100px;
+  }
+
+  .registration-main {
+    width: 225px;
+    height: 100px;
+    font-size: 36px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 100px;
+  }
+
+  .work-with-us {
+    width: 200px;
+    color: #ff4242;
+    text-align: center;
+    margin-left: 375px;
+    margin-top: 0px;
+  }
+
+  .text-work-with {
+    font-size: 40px;
+  }
+
+  .position-image {
+    margin-top: 75px;
+    padding-right: 50px;
+  }
+
+  .competition-name {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 54px;
+    margin-top: 50px;
+  }
+
+  .competition-description {
+    width: 75%;
+    text-align: center;
+    margin: 75px auto 25px;
+    font-size: 30px;
+  }
+
+  .list-description {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .center-associate {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 54px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .iia-logo {
+    margin-left: 120px;
+    width: 60%;
+  }
+
+  .gmc-logo {
+    width: 75%;
+    margin-left: 0px;
+  }
+
+  .iia-full, .gmc-full {
+    color: #25252a;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 110px;
+    width: 300px;
+  }
+
+  .gmc-full {
+    width: 350px;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+
+  .iia-box {
+    margin-left: 0px;
+  }
+
+  .gmc-box {
+    margin-left: -150px;
+    margin-top: -3px;
+  }
+
+  .registration-form {
+    padding-left: 0;
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .register-now {
+    font-size: 75px;
+  }
+
+  .registration-form input {
+    width: 600px;
+    height: 80px;
+    border: 3px solid #252525;
+    font-size: 36px;
+    padding-left: 25px;
+    font-weight: bold;
+  }
+
+  .registration-form .submit-form {
+    font-size: 50px;
+  }
+
+  .take-tour {
+    margin-right: 100px;
+    margin-top: 150px;
+    width: 125px;
+    height: 125px;
+    border: 4px solid #ff4242;
+    border-radius: 50%;
+    font-size: 28px;
+  }
+  
+  .fort-gwalior img {
+    margin-top: -225px;
+  }
+
+  /*last-page*/
+
+  .contact {
+    font-size: 50px;
+    margin-left: 0;
+    margin: 50px auto 25px;
+  }
+
+  .office-address {
+    width: 67%;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px auto 0;
+  }
+
+  .call-us {
+    margin-top: 32px;
+  }
+
+  .footer-page {
+    margin-top: 75px;
+  }
+
+  .adv-competition {
+    margin-top: 295px;
+  }
+
+  .footer-img {
+    margin-top: 50px;
+  }
+
+  .contact-title {
+    margin-bottom: 100px;
+  }
+
+  /* registration page */
+
+  .title-form-field {
+    font-size: 48px;
+  }
+
+  .college-field {
+    width: 750px;
+    height: 100px;
+    font-size: 36px;
+    margin-top: 65px;
+  }
+
+  .registration-field {
+    width: 750px;
+    height: 100px;
+    font-size: 36px;
+  }
+
+  .height-div {
+    margin-left: 85px;
+  }
+
+  .height-div:first-child {
+    margin-top: 100px;
+  }
+
+  .sub-title-field {
+    font-size: 24px;
+  }
+
+  .team-member {
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+
+  .member-ace {
+    margin-top: 100px;
+  }
+
+  .tnc {
+    font-size: 30px;
+  }
+
+  .student-select, .architect-select {
+    font-size: 36px;
+  }
+
+  .register-button {
+    width: 750px;
+    height: 100px;
+    font-size: 36px;
+  }
+
+  .box, .box-student1, .box-architect1, .box-student2, .box-architect2, .box-student3, .box-architect3 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .year-of-passing {
+    font-size: 40px;
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+
+  /*Competition Details*/
+
+  .comp-details {
+    margin-top: 30px;
+    border-bottom: 1px solid #ff4242;
+  }
+
+  .new-competition-details {
+    margin-top: 50px;
+    font-size: 54px;
+  }
+
+  .new-competition-description {
+    font-size: 15px;
+    margin: 30px auto 0;
+  }
+
+  .basic-rules-competitions {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .basic-rules-competitions li {
+    line-height: 1;
+    margin-top: 35px;
+  }
+
+  .dates-for-competition {
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 0px;
+  }
+
+  .mobile-view-dates {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  .mobile-view-dates:first-child {
+    border-right: 5px solid #ff4242;
+    padding-right: 35px;
+  }
+
+  .registration-open, .submission-deadline {
+    font-size: 36px;
+  }
+
+  .dates-competition {
+    font-size: 60px;
+    margin-top: -20px;
+  }
+
+  .price-money-list {
+    margin-left: 0px;
+  }
+
+  .price-money-list li {
+    font-size: 40px;
+  }
+
+  .price-money-list li:nth-child(4) {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+
+  .price-money-list li:nth-child(5) {
+    border: none;
+    margin-left: 50px;
+  }
+
+  .registration-main-two {
+    width: 412px;
+    height: 88px;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+
+  .competition-poster {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .tt-menu {
+    width: 600px; 
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    font-size: 36px;
+  }
+
+  .tt-suggestion {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  #list-of-colleges {
+    margin-top: -30px;
+  }
+
+  .teacher-mentor {
+    margin-top: 125px;
+  }
+
+    /* Brief Page */
+  .banner-image {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+
+  .brief-image {
+    padding-top: 200px;
+  }
+
+  .brief-title {
+    /*font-size: 54px;*/
+  }
+
+  .background-breif {
+    margin-top: 40px;
+  }
+
+  .brief-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*font-size: 38px;*/
+  }
+
+  .brief-points {
+    margin-left: -25px;
+    margin-top: 30px;
+    /*font-size: 30px;*/
+  }
+
+  .brief-para {
+    /*font-size: 36px;*/
+  }
+
+  .set-margin-top {
+    margin-top: 25px;
+  }
+
+  .brief-download {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .brief-link {
+    font-size: 48px;
+  }
+
+  .brief-linked {
+    font-size: 48px;
+  }
+
+  .jury-panel-1 {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .jury-panel-2 {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .jury-panel-3 {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .select2-selection__rendered {
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+
+  .select2-selection--single {
+    padding-bottom: 93px;
+    padding-top: 5px;
+    border: 1px solid #000 !important;
+    width: 750px !important;
+  }
+
+  .select2-results__option {
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .select2-search input {
+    font-size: 42px;
+  }
+
+  .select2-selection--single:focus {
+    outline: none;
+  }
+
+  .select2-dropdown--below {
+    margin-top: -25px;
+  }
+
+  .select2-selection__arrow {
+    margin-top: 3px
+  }
+
+  .select2-container--default {
+    margin-left: -15px;
+    margin-top: 30px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }
+
+  .select2-dropdown--below, .select2-dropdown--above {
+    margin-top: -30px;
+    margin-left: 15px;
+  }
+
+  .jury-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .jury-panel-title {
+    font-size: 54px;
+    margin-top: 50px;
+  }
+
+  .select2-container--default .select2-results > .select2-results__options {
+    max-height: 350px;
+    border: 2px solid #000;
+    border-top: none;
+  }
+
+  .select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 2px solid #000;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+  .after_reg {
+    padding-top: 500px;
+    text-align: center;
+    margin-bottom: 450px;
+  }
+
+  .payment_success {
+    padding-top: 500px;
+    text-align: center;
+    margin-bottom: 450px;
+
+  }
+
+  .payment_failure {
+    padding-top: 500px;
+    text-align: center;
+    margin-bottom: 450px;
+  }
+
+  .partner-list {
+    padding-top: 250px;
+  }
+
+}
+
+
+/*Animations Animate.css*/
+
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+  }
+
+  @-webkit-keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+  }
+
+  #ref-msg {
+    color: green;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -2%;
+  }
+
+  .refcode {
+    margin-left: 4%;
+  }

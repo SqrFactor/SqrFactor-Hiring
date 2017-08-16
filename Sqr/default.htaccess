@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 122.175.165.254
+deny from 106.51.240.117
+deny from 115.114.59.182
+deny from 117.248.255.152
+deny from 182.68.124.43
+deny from 113.193.104.27
+deny from 111.93.159.50
+deny from 1.22.84.237
+deny from 113.193.104.6
+deny from 1.22.87.57
