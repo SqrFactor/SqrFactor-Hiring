@@ -13,9 +13,11 @@
 
 
 
-Route::get('/', function () {
-    return view('index');
-});
+
+Route::get('/', [
+    'uses'=>'RegistrationController@home',
+    'as'=> 'home',
+]);
 
 Route::get('/register', [
     'uses'=>'RegistrationController@index',
@@ -31,6 +33,37 @@ Route::post('/register', [
     'uses'=>'RegistrationController@create',
     'as'=> 'register.create',
 ]);
+
+Route::get('/registerUser', [
+    'uses'=>'regController@index',
+    'as'=> 'reg.index',
+]);
+
+Route::post('/registerUser', [
+    'uses'=>'regController@store',
+    'as'=> 'reg.store',
+]);
+
+Route::get('/NoUser', function () {
+    return view('NoUser');
+});
+
+Route::get('/login', [
+    'uses'=>'UserController@show',
+    'as'=> 'user.login',
+    ]);
+
+Route::post('/login', [
+    'uses'=>'UserController@store',
+    'as'=> 'user.store',
+    ]);
+
+
+Route::get('/UserTableDB', [
+    'uses'=>'RegistrationController@showla',
+    'as'=> 'user.index',
+    'name' => 'home',
+    ]);
 
 
 

@@ -11,6 +11,14 @@ use Mail;
 class RegistrationController extends Controller
 {
     //
+    
+     public function showla()
+    {
+        //
+            $users = Registration::all();
+        return view('user.index', compact('users'));
+      
+    }
         
     public function index(){
         return view('/register');
@@ -24,7 +32,7 @@ class RegistrationController extends Controller
              'phone'=> 'required | numeric',
              'position' => 'required',
              'college' => 'required',
-             'year' => 'required'
+             'year' => 'required | numeric'
         ]); 
         
         $user = Registration::create([
@@ -43,7 +51,11 @@ class RegistrationController extends Controller
         
         //dd($user->email);
         
-        Mail::to($user)->send(new \App\Mail\Thankyou);
+        //Mail::to($user)->send(new \App\Mail\Thankyou);
         return redirect('/success');
+    }
+    
+     public function home(){
+        return view('index');
     }
 }

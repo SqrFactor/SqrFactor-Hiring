@@ -25,9 +25,15 @@
         }, 1000);
       })
 
-      $("#competition").click(function() {
+      $("#product").click(function() {
         $('html, body').animate({
-            scrollTop: $(".comp-details").offset().top - 160
+            scrollTop: $(".product").offset().top - 160
+        }, 1000);
+      })
+      
+      $("#about-us").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about-us").offset().top - 160
         }, 1000);
       })
 
