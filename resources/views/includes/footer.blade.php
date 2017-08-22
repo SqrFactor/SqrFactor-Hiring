@@ -13,6 +13,6 @@
     </div>
     <div class="col-md-12 footer-img">
       <img src="assets/img/footer.png" class="img-footer">
-      <p class="footer-allrights">&copy; 2016. All Rights Reserved | SqrFactor India Pvt. Ltd</p>
+      <p class="footer-allrights">&copy; 2017. All Rights Reserved | SqrFactor India Pvt. Ltd</p>
     </div>
   </div>

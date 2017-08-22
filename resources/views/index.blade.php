@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SqrFactor Gwalior'16 Event</title>
+  <title>SqrFactor - Home</title>
   @include('includes.stylesheet')
 
 </head>
@@ -16,7 +16,7 @@
     <div class="col-md-6">
       <div class="intro-lines">
         <h1 class="title-intro">Let's make <b>World</b> a better place to live <i>together</i>.</h1>
-        <p class="sub-title-intro"><span class="turn-red">SqrFactor </span>beleives in the idea of dreams. But, as they say <i>'It's easy to Dream. Execution is what seperates you from others.' </i> We are looking for doers, dreamers and achievers to be working with us.</p>
+        <p class="sub-title-intro"><span class="turn-red">SqrFactor </span>believes in the idea of dreams. But, as they say <i>'It's easy to Dream. Execution is what seperates you from others.' </i> We are looking for doers, dreamers and achievers to be working with us.</p>
       </div>
     </div>
     <div class="col-md-6 adv-competition">
@@ -114,7 +114,7 @@ We write your biographies,but instead of words we use architecture elements, fab
             <img src="assets/img/jurya3.png" alt="" class="jury-img">
         </div>
         <h2 class="jury-name turn-red jury-mb">Content Writer</h2>
-        <h4 class="jury-off jury-mb">Knowledge and experince of 0-2 years</h4>
+        <h4 class="jury-off jury-mb">Knowledge and experience of 0-2 years</h4>
       </div>
     </div>
   </div>
